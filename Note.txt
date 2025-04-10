@@ -1,0 +1,71 @@
+Live chat application
+
+-> React
+-> Node js
+
+tool required
+-> npm install
+-> Node
+-> Postman 
+-> Mongodb
+
+
+API development and testing
+-> setup node js + Express js
+-> Host Mongodb database in Atlas
+-> Connect express app with Mongodb
+-> create required APIs in express application
+-> Test APIs using Postman
+
+Frontend
+-> Create react app
+-> Create & Design required pages
+-> product routes from unauthorized access
+-> Install redux for state managemnt
+-> Call APIs from react APP.
+
+
+using Socket
+-> understand how web Socket work 
+-> install socket for react & express js
+-> use socket for real time data transfer between clinet and server
+-> How tytping indicator and online user
+
+
+Other features
+-> Allow user to send emoji, images in chat.
+-> Allow user to upload thier profile pic and save it cloudinary
+-> bug fixes
+-> deploy app to render
+
+
+required dependacies for backend
+-> express
+-> nodemon
+-> dotenv
+-> mongoose -> 3rd party libarey which allow to comunicate mongodb database  and create and exsicute mongodb commend from out node js application
+-> bcryptjs -> to encrypt the password
+-> mongoose
+-> socket.io
+-> cloudinary -> to store image on cloud
+-> cros
+
+
+
+dependacies for Frontend
+->react-router-dom
+-> axios
+-> react hot toast
+-> redux
+-> react-redux
+->@reduxjs/toolkit
+-> moment
+-> socket.io-client
+-> emoji-picker-react
+
+
+
+web socket - real time data exchange b/t client and sever
+
+
+51
