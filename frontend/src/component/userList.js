@@ -124,7 +124,7 @@ function getData(){
         return allChats;
     }
     else{
-        allUser.filter(user => {
+       return allUser.filter(user => {
            return (user.firstname.toLowerCase().includes(searchKey) || user.lastname.toLowerCase().includes(searchKey));
         })
     }
@@ -187,7 +187,7 @@ useEffect(() => {
         getData()
 
         
-        .map((obj) => {
+        ?.map((obj) => {
             let user = obj;
             
             if(obj.members){
