@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 
-export const url = 'http://localhost:5000';
+export const url = 'https://quick-chat-backend-j7yq.onrender.com';
 
 export const axiosInstance = axios.create({
     headers: {
