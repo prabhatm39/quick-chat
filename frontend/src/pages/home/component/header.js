@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Header = ({socket}) => {
   const {user}= useSelector(state => state.userReducer);
-  console.log("user",user)
+  
   const navigate = useNavigate();
 
 

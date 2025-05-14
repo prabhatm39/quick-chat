@@ -118,13 +118,14 @@ function formatName(user){
 }
 
 
-
+console.log("user", allUser);
 function getData(){
     if(searchKey == ""){
         return allChats;
     }
     else{
-       return allUser.filter(user => {
+        return allUser.filter(user => {
+            
            return (user.firstname.toLowerCase().includes(searchKey) || user.lastname.toLowerCase().includes(searchKey));
         })
     }
@@ -180,10 +181,13 @@ useEffect(() => {
     })
 },[])
 
+useEffect(()=>{
+    console.log( getData(),'hi')
 
-
+},[])
     return(
 
+        
         getData()
 
         
